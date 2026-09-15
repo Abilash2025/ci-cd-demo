@@ -20,4 +20,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build and test
-        run: ./mvnw clean test
+        run: ./mvnw clean package
