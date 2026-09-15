@@ -12,7 +12,7 @@ public class HelloControllerTest {
     void hello_shouldReturnExpectedMessage(){
         String message = helloController.hello();
 
-        assertEquals("Hello from devops-demo", message);
+        assertEquals("Hello from devops-demo! Version 2", message);
     }
 
 
